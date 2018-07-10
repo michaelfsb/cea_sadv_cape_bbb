@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MPU-6500
+D 6-axis MotionTracking device, 512-byte FIFO, QFN - 3x3x0.9mm package
+K
+F https://www.invensense.com/wp-content/uploads/2015/02/MPU-6500-Datasheet2.pdf
+$ENDCMP
+#
+#End Doc Library

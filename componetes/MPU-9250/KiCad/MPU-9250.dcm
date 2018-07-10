@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MPU-9250
+D Multiple Function Sensor Modules Nine-Axis (Gyro + Accelerometer + Compass) MEMS MotionTracking Device
+K
+F https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf
+$ENDCMP
+#
+#End Doc Library

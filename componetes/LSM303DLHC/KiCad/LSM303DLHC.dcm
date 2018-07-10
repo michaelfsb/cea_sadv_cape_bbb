@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LSM303DLHC
+D STMICROELECTRONICS - LSM303DLHC - SENSOR, 3 CH, ACCEL, MAG, MOD, 14LGA
+K
+F https://componentsearchengine.com/Datasheets/2/LSM303DLHC.pdf
+$ENDCMP
+#
+#End Doc Library
