@@ -1,0 +1,39 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model AD7793BRUZ
+#/2129/39316/2.28/16/3/Integrated Circuit
+DEF AD7793BRUZ IC 0 30 Y Y 1 F N
+F0 "IC" 1750 300 50 H V L CNN
+F1 "AD7793BRUZ" 1750 200 50 H V L CNN
+F2 "SOP65P640X120-16N" 1750 100 50 H I L CNN
+F3 "http://www.analog.com/static/imported-files/data_sheets/AD7792_7793.pdf" 1750 0 50 H I L CNN
+F4 "AD7793BRUZ, 24-Bit Analogue to Digital Converter, Differential, SPI, 16-Pin TSSOP" 1750 -100 50 H I L CNN "Description"
+F5 "1.2" 1750 -200 50 H I L CNN "Height"
+F6 "Analog Devices" 1750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "AD7793BRUZ" 1750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "6977114P" 1750 -500 50 H I L CNN "RS Part Number"
+F9 "http://uk.rs-online.com/web/p/products/6977114P" 1750 -600 50 H I L CNN "RS Price/Stock"
+F10 "AD7793BRUZ" 1750 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ad7793bruz/analog-devices" 1750 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X SCLK 1 0 0 200 R 50 50 0 0 B
+X CLK 2 0 -100 200 R 50 50 0 0 B
+X ~CS 3 0 -200 200 R 50 50 0 0 B
+X IOUT1 4 0 -300 200 R 50 50 0 0 B
+X AIN1[+] 5 0 -400 200 R 50 50 0 0 B
+X AIN1[-] 6 0 -500 200 R 50 50 0 0 B
+X AIN2[+] 7 0 -600 200 R 50 50 0 0 B
+X AIN2[-] 8 0 -700 200 R 50 50 0 0 B
+X DIN 16 1900 0 200 L 50 50 0 0 B
+X DOUT/~RDY 15 1900 -100 200 L 50 50 0 0 B
+X DVDD 14 1900 -200 200 L 50 50 0 0 B
+X AVDD 13 1900 -300 200 L 50 50 0 0 B
+X GND 12 1900 -400 200 L 50 50 0 0 B
+X IOUT2 11 1900 -500 200 L 50 50 0 0 B
+X REFIN[-]/AIN3[-] 10 1900 -600 200 L 50 50 0 0 B
+X REFIN[+]/AIN3[+] 9 1900 -700 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 1700 100 1700 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

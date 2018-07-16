@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD7793BRUZ
+D AD7793BRUZ, 24-Bit Analogue to Digital Converter, Differential, SPI, 16-Pin TSSOP
+K
+F http://www.analog.com/static/imported-files/data_sheets/AD7792_7793.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP AD7790BRMZ
-D AD7790BRMZ, 16-Bit Analogue to Digital Converter, Differential, SPI, 10-Pin MSOP
-K
-F http://www.analog.com/static/imported-files/data_sheets/AD7790.pdf
-$ENDCMP
-#
-#End Doc Library
