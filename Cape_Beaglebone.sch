@@ -921,18 +921,18 @@ $EndComp
 $Comp
 L DS3231S# U1
 U 1 1 5AEBAE29
-P 3400 9350
-F 0 "U1" H 4650 9650 50  0000 L CNN
-F 1 "DS3231S#" H 4650 9550 50  0000 L CNN
-F 2 "DS3231S#:SOIC127P1032X265-16N" H 4650 9450 50  0001 L CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/DS3231.pdf" H 4650 9350 50  0001 L CNN
-F 4 "Real Time Clock Serial Maxim DS3231S#, Real Time Clock Serial-I2C, 16-Pin SOIC" H 4650 9250 50  0001 L CNN "Description"
-F 5 "2.65" H 4650 9150 50  0001 L CNN "Height"
-F 6 "Maxim Integrated" H 4650 9050 50  0001 L CNN "Manufacturer_Name"
-F 7 "DS3231S#" H 4650 8950 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "1039915" H 4650 8850 50  0001 L CNN "RS Part Number"
-F 9 "http://uk.rs-online.com/web/p/products/1039915" H 4650 8750 50  0001 L CNN "RS Price/Stock"
-	1    3400 9350
+P 3700 9200
+F 0 "U1" H 4950 9500 50  0000 L CNN
+F 1 "DS3231S#" H 4950 9400 50  0000 L CNN
+F 2 "DS3231S#:SOIC127P1032X265-16N" H 4950 9300 50  0001 L CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/DS3231.pdf" H 4950 9200 50  0001 L CNN
+F 4 "Real Time Clock Serial Maxim DS3231S#, Real Time Clock Serial-I2C, 16-Pin SOIC" H 4950 9100 50  0001 L CNN "Description"
+F 5 "2.65" H 4950 9000 50  0001 L CNN "Height"
+F 6 "Maxim Integrated" H 4950 8900 50  0001 L CNN "Manufacturer_Name"
+F 7 "DS3231S#" H 4950 8800 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "1039915" H 4950 8700 50  0001 L CNN "RS Part Number"
+F 9 "http://uk.rs-online.com/web/p/products/1039915" H 4950 8600 50  0001 L CNN "RS Price/Stock"
+	1    3700 9200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1070,45 +1070,34 @@ $EndComp
 $Comp
 L GNDD #PWR044
 U 1 1 5AEBAE7B
-P 4100 10250
-F 0 "#PWR044" H 4100 10000 50  0001 C CNN
-F 1 "GNDD" H 4100 10125 50  0000 C CNN
-F 2 "" H 4100 10250 50  0001 C CNN
-F 3 "" H 4100 10250 50  0001 C CNN
-	1    4100 10250
+P 4400 10100
+F 0 "#PWR044" H 4400 9850 50  0001 C CNN
+F 1 "GNDD" H 4400 9975 50  0000 C CNN
+F 2 "" H 4400 10100 50  0001 C CNN
+F 3 "" H 4400 10100 50  0001 C CNN
+	1    4400 10100
 	1    0    0    -1  
-$EndComp
-$Comp
-L SW_Push_Dual_x2 SW1
-U 1 1 5AEBAE81
-P 3200 9900
-F 0 "SW1" H 3250 10000 50  0000 L CNN
-F 1 "Push" H 3350 10100 50  0000 C CNN
-F 2 "" H 3200 10100 50  0001 C CNN
-F 3 "" H 3200 10100 50  0001 C CNN
-	1    3200 9900
-	0    -1   -1   0   
 $EndComp
 $Comp
 L +3V3 #PWR045
 U 1 1 5AEBAE88
-P 3300 9450
-F 0 "#PWR045" H 3300 9300 50  0001 C CNN
-F 1 "+3V3" H 3300 9590 50  0000 C CNN
-F 2 "" H 3300 9450 50  0001 C CNN
-F 3 "" H 3300 9450 50  0001 C CNN
-	1    3300 9450
-	0    -1   -1   0   
+P 3550 9300
+F 0 "#PWR045" H 3550 9150 50  0001 C CNN
+F 1 "+3V3" H 3550 9440 50  0000 C CNN
+F 2 "" H 3550 9300 50  0001 C CNN
+F 3 "" H 3550 9300 50  0001 C CNN
+	1    3550 9300
+	1    0    0    -1  
 $EndComp
 $Comp
 L GNDD #PWR046
 U 1 1 5AEBAE8E
-P 5000 9850
-F 0 "#PWR046" H 5000 9600 50  0001 C CNN
-F 1 "GNDD" H 5000 9725 50  0000 C CNN
-F 2 "" H 5000 9850 50  0001 C CNN
-F 3 "" H 5000 9850 50  0001 C CNN
-	1    5000 9850
+P 5300 9700
+F 0 "#PWR046" H 5300 9450 50  0001 C CNN
+F 1 "GNDD" H 5300 9575 50  0000 C CNN
+F 2 "" H 5300 9700 50  0001 C CNN
+F 3 "" H 5300 9700 50  0001 C CNN
+	1    5300 9700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1154,9 +1143,9 @@ Text GLabel 1150 8000 0    60   Input ~ 0
 SCL_I2C_2
 Text GLabel 1150 8100 0    60   Input ~ 0
 SDA_I2C_2
-Text GLabel 4950 9350 2    60   Input ~ 0
+Text GLabel 5250 9200 2    60   Input ~ 0
 SCL_I2C_2
-Text GLabel 4950 9450 2    60   Input ~ 0
+Text GLabel 5250 9300 2    60   Input ~ 0
 SDA_I2C_2
 Text GLabel 3450 8500 0    60   Input ~ 0
 SCL_I2C_2
@@ -1313,12 +1302,12 @@ $EndComp
 $Comp
 L Conn_01x02 J4
 U 1 1 5AEBAF1C
-P 5300 9900
-F 0 "J4" V 5400 9850 50  0000 C CNN
-F 1 "Conn_01x02" V 5300 9500 50  0001 C CNN
-F 2 "Connectors_JST:JST_GH_BM02B-GHS-TBT_02x1.25mm_Straight" H 5300 9900 50  0001 C CNN
-F 3 "" H 5300 9900 50  0001 C CNN
-	1    5300 9900
+P 5600 9750
+F 0 "J4" V 5700 9700 50  0000 C CNN
+F 1 "Conn_01x02" V 5600 9350 50  0001 C CNN
+F 2 "Connectors_JST:JST_GH_BM02B-GHS-TBT_02x1.25mm_Straight" H 5600 9750 50  0001 C CNN
+F 3 "" H 5600 9750 50  0001 C CNN
+	1    5600 9750
 	0    1    1    0   
 $EndComp
 NoConn ~ 900  9150
@@ -2417,8 +2406,7 @@ F 3 "" H 1000 10950 50  0001 C CNN
 	1    1000 10950
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 3400 9350
-NoConn ~ 3400 9550
+NoConn ~ 3700 9200
 NoConn ~ 1700 8250
 NoConn ~ 1700 10350
 Text GLabel 9950 5450 0    60   Input ~ 0
@@ -2958,7 +2946,6 @@ NoConn ~ 2100 3600
 NoConn ~ 2100 3900
 NoConn ~ 1600 3900
 NoConn ~ 1600 3800
-NoConn ~ 1600 3700
 NoConn ~ 1600 4200
 NoConn ~ 1600 4300
 NoConn ~ 1600 4400
@@ -3200,35 +3187,26 @@ Wire Wire Line
 Wire Wire Line
 	1800 10400 1800 10350
 Wire Wire Line
-	4950 9350 4800 9350
+	5250 9200 5100 9200
 Wire Wire Line
-	4950 9450 4800 9450
+	5250 9300 5100 9300
 Wire Wire Line
-	3400 9750 3400 10250
-Connection ~ 3400 9850
-Connection ~ 3400 9950
+	3700 9600 3700 10100
+Connection ~ 3700 9700
+Connection ~ 3700 9800
 Wire Wire Line
-	4800 10250 4800 9750
-Connection ~ 4800 9950
-Connection ~ 4800 9850
+	5100 10100 5100 9600
+Connection ~ 5100 9800
+Connection ~ 5100 9700
+Connection ~ 3700 9900
+Connection ~ 5100 9900
+Connection ~ 4400 10100
 Wire Wire Line
-	3200 10250 4800 10250
-Connection ~ 3400 10050
-Connection ~ 4800 10050
-Connection ~ 4100 10250
+	3550 9300 3700 9300
 Wire Wire Line
-	3200 9700 3200 9650
+	5100 9500 5500 9500
 Wire Wire Line
-	3200 9650 3400 9650
-Wire Wire Line
-	3200 10100 3200 10250
-Connection ~ 3400 10250
-Wire Wire Line
-	3300 9450 3400 9450
-Wire Wire Line
-	4800 9650 5200 9650
-Wire Wire Line
-	4800 9550 5300 9550
+	5100 9400 5600 9400
 Wire Wire Line
 	3500 8200 3600 8200
 Wire Wire Line
@@ -3918,8 +3896,8 @@ Wire Wire Line
 Wire Wire Line
 	1300 8200 1300 8250
 Wire Wire Line
-	5000 9850 5000 9650
-Connection ~ 5000 9650
+	5300 9700 5300 9500
+Connection ~ 5300 9500
 Wire Wire Line
 	9850 7600 9950 7600
 Wire Wire Line
@@ -3980,11 +3958,9 @@ Wire Wire Line
 	4000 4000 4100 4000
 Wire Wire Line
 	4000 4100 4100 4100
-NoConn ~ 4100 3500
 NoConn ~ 4100 3600
 NoConn ~ 4100 3700
 NoConn ~ 4100 3800
-NoConn ~ 4600 3800
 NoConn ~ 4600 3700
 NoConn ~ 4600 3600
 NoConn ~ 4600 3500
@@ -4014,9 +3990,9 @@ HX2_DOUT
 Text GLabel 7350 6700 2    60   Input ~ 0
 HX2_SCK
 Wire Wire Line
-	5200 9650 5200 9700
+	5500 9500 5500 9550
 Wire Wire Line
-	5300 9550 5300 9700
+	5600 9400 5600 9550
 Wire Wire Line
 	9500 1050 9500 1150
 Wire Wire Line
@@ -4105,4 +4081,21 @@ Wire Wire Line
 	12850 1600 12850 1800
 Wire Wire Line
 	12850 1800 13000 1800
+Wire Wire Line
+	3700 10100 5100 10100
+NoConn ~ 3700 9500
+Text GLabel 3600 9400 0    60   Input ~ 0
+INTERUP_RTC
+Wire Wire Line
+	3600 9400 3700 9400
+Text Notes 4200 2450 0    60   ~ 0
+BBB_P8
+Text Notes 1700 2450 0    60   ~ 0
+BBB_P9
+Text GLabel 1500 3700 0    60   Input ~ 0
+INTERUP_RTC
+NoConn ~ 4100 3500
+Wire Wire Line
+	1600 3700 1500 3700
+NoConn ~ 4600 3800
 $EndSCHEMATC
