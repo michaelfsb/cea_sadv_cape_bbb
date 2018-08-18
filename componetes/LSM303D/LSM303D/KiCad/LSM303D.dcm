@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LSM303D
+D STMICROELECTRONICS - LSM303D - 3D ACCELEROMETER & MAGNETOMETER, LGA-16
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/DM00057547.pdf
+$ENDCMP
+#
+#End Doc Library

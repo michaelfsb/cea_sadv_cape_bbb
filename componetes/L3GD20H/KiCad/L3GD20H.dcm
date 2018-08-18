@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L3GD20H
+D L3GD20H, 3-axis digital output gyroscope STMicroelectronics L3GD20H 3-Axis Gyroscope, 0  400 kHz, 2.2  3.6 V 16-Pin LGA
+K
+F http://www.mouser.com/ds/2/389/l3gd20h-954865.pdf
+$ENDCMP
+#
+#End Doc Library
