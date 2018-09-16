@@ -1,7 +1,127 @@
-Cmp-Mod V01 Created by PcbNew   date = 11/08/2018 18:33:54
+Cmp-Mod V01 Created by PcbNew   date = 18/08/2018 13:16:25
 
 BeginCmp
-TimeStamp = 5B7052C0
+TimeStamp = 5B783D31
+Path = /5B613F83
+Reference = J11;
+ValeurCmp = Conn_01x06;
+IdModule  = Connectors_JST:JST_SH_BM06B-SRSS-TB_06x1.00mm_Straight;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B783DC4
+Path = /5C1DF9E5
+Reference = J4;
+ValeurCmp = Conn_01x06;
+IdModule  = Connectors_JST:JST_SH_BM06B-SRSS-TB_06x1.00mm_Straight;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B783E57
+Path = /5C1DFA02
+Reference = J6;
+ValeurCmp = Conn_01x06;
+IdModule  = Connectors_JST:JST_SH_BM06B-SRSS-TB_06x1.00mm_Straight;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B783EEA
+Path = /5B614C2B
+Reference = J16;
+ValeurCmp = Conn_01x06;
+IdModule  = Connectors_JST:JST_SH_BM06B-SRSS-TB_06x1.00mm_Straight;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B67E54E
+Path = /5AEBAF1C
+Reference = J3;
+ValeurCmp = Conn_01x02;
+IdModule  = Connectors_JST:JST_SH_BM02B-SRSS-TB_02x1.00mm_Straight;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B67B551
+Path = /5AEBFC81
+Reference = J1;
+ValeurCmp = Conn_01x04;
+IdModule  = Connectors_JST:JST_SH_BM04B-SRSS-TB_04x1.00mm_Straight;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B67CF34
+Path = /5B74B856
+Reference = J2;
+ValeurCmp = Conn_01x04;
+IdModule  = Connectors_JST:JST_SH_BM04B-SRSS-TB_04x1.00mm_Straight;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B796640
+Path = /5B616DAD
+Reference = J7;
+ValeurCmp = Conn_01x04;
+IdModule  = Connectors_JST:JST_SH_BM04B-SRSS-TB_04x1.00mm_Straight;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7968E3
+Path = /5B61759F
+Reference = J8;
+ValeurCmp = Conn_01x04;
+IdModule  = Connectors_JST:JST_SH_BM04B-SRSS-TB_04x1.00mm_Straight;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B79685C
+Path = /5B617A07
+Reference = J9;
+ValeurCmp = Conn_01x04;
+IdModule  = Connectors_JST:JST_SH_BM04B-SRSS-TB_04x1.00mm_Straight;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7965B9
+Path = /5B617B24
+Reference = J10;
+ValeurCmp = Conn_01x04;
+IdModule  = Connectors_JST:JST_SH_BM04B-SRSS-TB_04x1.00mm_Straight;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7967D5
+Path = /5B618580
+Reference = J12;
+ValeurCmp = Conn_01x04;
+IdModule  = Connectors_JST:JST_SH_BM04B-SRSS-TB_04x1.00mm_Straight;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B79674E
+Path = /5B618586
+Reference = J13;
+ValeurCmp = Conn_01x04;
+IdModule  = Connectors_JST:JST_SH_BM04B-SRSS-TB_04x1.00mm_Straight;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B796532
+Path = /5B61858C
+Reference = J14;
+ValeurCmp = Conn_01x04;
+IdModule  = Connectors_JST:JST_SH_BM04B-SRSS-TB_04x1.00mm_Straight;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B7966C7
+Path = /5B618592
+Reference = J15;
+ValeurCmp = Conn_01x04;
+IdModule  = Connectors_JST:JST_SH_BM04B-SRSS-TB_04x1.00mm_Straight;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B715909
 Path = /5AC47C23
 Reference = L1;
 ValeurCmp = I;
@@ -41,7 +161,7 @@ IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 5B67B145
+TimeStamp = 5B76C519
 Path = /5AEBAE3C
 Reference = C2;
 ValeurCmp = 10n;
@@ -57,7 +177,7 @@ IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 5B67B167
+TimeStamp = 5B76C4E9
 Path = /5AEBAE43
 Reference = C4;
 ValeurCmp = 0.1u;
@@ -65,7 +185,7 @@ IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 5B67B178
+TimeStamp = 5B76C549
 Path = /5AEBAE5C
 Reference = C5;
 ValeurCmp = 0.1u;
@@ -113,7 +233,7 @@ IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 5B67B1DE
+TimeStamp = 5B78634A
 Path = /5B4E6841
 Reference = C11;
 ValeurCmp = C;
@@ -121,7 +241,7 @@ IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 5B67B1EF
+TimeStamp = 5B78646C
 Path = /5C037CA6
 Reference = C12;
 ValeurCmp = C;
@@ -129,7 +249,7 @@ IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 5B67B200
+TimeStamp = 5B78649C
 Path = /5C037CB3
 Reference = C13;
 ValeurCmp = C;
@@ -153,7 +273,7 @@ IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 5B67B233
+TimeStamp = 5B7706F3
 Path = /5AEB9BA3
 Reference = C16;
 ValeurCmp = 0.1u;
@@ -177,7 +297,7 @@ IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 5B67B266
+TimeStamp = 5B770118
 Path = /5AEB9C0F
 Reference = C19;
 ValeurCmp = 0.1u;
@@ -257,7 +377,7 @@ IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 5B67B310
+TimeStamp = 5B7658F5
 Path = /5AF9BF3C
 Reference = C29;
 ValeurCmp = 10u;
@@ -265,7 +385,7 @@ IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 5B67B321
+TimeStamp = 5B79BD37
 Path = /5AFD6C70
 Reference = C30;
 ValeurCmp = 1u;
@@ -297,7 +417,7 @@ IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 5B67B37B
+TimeStamp = 5B76C58F
 Path = /5AEBAE9A
 Reference = IC1;
 ValeurCmp = MPU-9250;
@@ -337,7 +457,7 @@ IdModule  = AD7793BRUZ:SOP65P640X120-16N;
 EndCmp
 
 BeginCmp
-TimeStamp = 5B67B43F
+TimeStamp = 5B7864E6
 Path = /5C037C88
 Reference = IC7;
 ValeurCmp = AD7793BRUZ;
@@ -393,131 +513,11 @@ IdModule  = L3GD20H_CORRETO:LGA(3X3X1.0-16L);
 EndCmp
 
 BeginCmp
-TimeStamp = 5B67B551
-Path = /5AEBFC81
-Reference = J1;
-ValeurCmp = Conn_01x04;
-IdModule  = Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight;
-EndCmp
-
-BeginCmp
-TimeStamp = 5B67CF34
-Path = /5B74B856
-Reference = J2;
-ValeurCmp = Conn_01x04;
-IdModule  = Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight;
-EndCmp
-
-BeginCmp
-TimeStamp = 5B67E54E
-Path = /5AEBAF1C
-Reference = J3;
-ValeurCmp = Conn_01x02;
-IdModule  = Connectors_JST:JST_GH_BM02B-GHS-TBT_02x1.25mm_Straight;
-EndCmp
-
-BeginCmp
-TimeStamp = 5B67B5FC
-Path = /5C1DF9E5
-Reference = J4;
-ValeurCmp = Conn_01x06;
-IdModule  = Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight;
-EndCmp
-
-BeginCmp
 TimeStamp = 5B67B601
 Path = /5AEBAEED
 Reference = J5;
 ValeurCmp = M_WP;
 IdModule  = complemento2:test_pad;
-EndCmp
-
-BeginCmp
-TimeStamp = 5B67B644
-Path = /5C1DFA02
-Reference = J6;
-ValeurCmp = Conn_01x06;
-IdModule  = Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight;
-EndCmp
-
-BeginCmp
-TimeStamp = 5B67B67D
-Path = /5B616DAD
-Reference = J7;
-ValeurCmp = Conn_01x04;
-IdModule  = Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight;
-EndCmp
-
-BeginCmp
-TimeStamp = 5B67B6B6
-Path = /5B61759F
-Reference = J8;
-ValeurCmp = Conn_01x04;
-IdModule  = Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight;
-EndCmp
-
-BeginCmp
-TimeStamp = 5B67B6EF
-Path = /5B617A07
-Reference = J9;
-ValeurCmp = Conn_01x04;
-IdModule  = Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight;
-EndCmp
-
-BeginCmp
-TimeStamp = 5B67B728
-Path = /5B617B24
-Reference = J10;
-ValeurCmp = Conn_01x04;
-IdModule  = Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight;
-EndCmp
-
-BeginCmp
-TimeStamp = 5B67B76B
-Path = /5B613F83
-Reference = J11;
-ValeurCmp = Conn_01x06;
-IdModule  = Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight;
-EndCmp
-
-BeginCmp
-TimeStamp = 5B67B7A4
-Path = /5B618580
-Reference = J12;
-ValeurCmp = Conn_01x04;
-IdModule  = Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight;
-EndCmp
-
-BeginCmp
-TimeStamp = 5B67B7DD
-Path = /5B618586
-Reference = J13;
-ValeurCmp = Conn_01x04;
-IdModule  = Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight;
-EndCmp
-
-BeginCmp
-TimeStamp = 5B67B816
-Path = /5B61858C
-Reference = J14;
-ValeurCmp = Conn_01x04;
-IdModule  = Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight;
-EndCmp
-
-BeginCmp
-TimeStamp = 5B67B84F
-Path = /5B618592
-Reference = J15;
-ValeurCmp = Conn_01x04;
-IdModule  = Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight;
-EndCmp
-
-BeginCmp
-TimeStamp = 5B67B892
-Path = /5B614C2B
-Reference = J16;
-ValeurCmp = Conn_01x06;
-IdModule  = Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight;
 EndCmp
 
 BeginCmp
@@ -569,7 +569,7 @@ IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = 5B67B99B
+TimeStamp = 5B76C5F4
 Path = /5B0223F1
 Reference = R4;
 ValeurCmp = R;
@@ -686,6 +686,22 @@ Path = /5AEBAE1C
 Reference = U1;
 ValeurCmp = 4525DO-DS5AI001DP;
 IdModule  = 4525DO-DS5AI001DP:4525DO-DS...P;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B76FCE9
+Path = 
+Reference = G***;
+ValeurCmp = UFMG;
+IdModule  = complementos:UFMG;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B76FDDF
+Path = 
+Reference = G***;
+ValeurCmp = CEA;
+IdModule  = complementos:CEA;
 EndCmp
 
 EndListe
