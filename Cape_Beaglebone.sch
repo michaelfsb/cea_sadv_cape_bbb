@@ -140,8 +140,8 @@ Text Notes 2500 1650 0    60   ~ 0
 - CAT24C256WI\n- DS3231\n- MPU9250\n- MS4525
 Text Notes 3650 1250 0    60   ~ 12
 Componetes SPI e GPIO
-Text Notes 3650 1850 0    60   ~ 0
-- AD7790\n- ADS8688\n- HX711\n- L3GD20\n- LSM303\n- HMC5883
+Text Notes 3650 1750 0    60   ~ 0
+- AD7793\n- ADS8688\n- HX711\n- L3GD20\n- LSM303
 Text Notes 2150 1000 0    79   Italic 16
 Índice de componentes do cape
 $Comp

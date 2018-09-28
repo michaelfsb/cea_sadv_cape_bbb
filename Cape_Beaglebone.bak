@@ -126,9 +126,9 @@ Text GLabel 1500 3000 0    60   Input ~ 0
 INTERUP_SEN_7a
 Text GLabel 2200 3000 2    60   Input ~ 0
 INTERUP_SEN_7b
-Text GLabel 1500 3300 0    60   Input ~ 0
-INTERUP_SEN_8a
 Text GLabel 2200 3300 2    60   Input ~ 0
+INTERUP_SEN_8a
+Text GLabel 1500 3300 0    60   Input ~ 0
 INTERUP_SEN_8b
 Text Notes 1300 1550 0    60   ~ 0
 - BMP180\n- HMC5883\n- MPU6500
@@ -140,8 +140,8 @@ Text Notes 2500 1650 0    60   ~ 0
 - CAT24C256WI\n- DS3231\n- MPU9250\n- MS4525
 Text Notes 3650 1250 0    60   ~ 12
 Componetes SPI e GPIO
-Text Notes 3650 1850 0    60   ~ 0
-- AD7790\n- ADS8688\n- HX711\n- L3GD20\n- LSM303\n- HMC5883
+Text Notes 3650 1750 0    60   ~ 0
+- AD7793\n- ADS8688\n- HX711\n- L3GD20\n- LSM303
 Text Notes 2150 1000 0    79   Italic 16
 Índice de componentes do cape
 $Comp
@@ -4077,17 +4077,17 @@ Wire Wire Line
 	1500 2900 1600 2900
 NoConn ~ 4100 2900
 Wire Wire Line
-	2200 3300 2100 3300
-Wire Wire Line
 	2200 3000 2100 3000
 Wire Wire Line
 	1500 3000 1600 3000
 NoConn ~ 1600 3200
 Wire Wire Line
 	1500 3100 1600 3100
-Wire Wire Line
-	1500 3300 1600 3300
 NoConn ~ 4600 4000
 Wire Wire Line
 	2200 3200 2100 3200
+Wire Wire Line
+	1500 3300 1600 3300
+Wire Wire Line
+	2100 3300 2200 3300
 $EndSCHEMATC
