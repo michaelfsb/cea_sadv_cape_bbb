@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 4525DO-DS5AI001DP:4525DO-DS5AI001DP
+# 4525DO-DS5AI001DP_4525DO-DS5AI001DP
 #
-DEF 4525DO-DS5AI001DP:4525DO-DS5AI001DP U 0 30 Y Y 1 F N
+DEF 4525DO-DS5AI001DP_4525DO-DS5AI001DP U 0 30 Y Y 1 F N
 F0 "U" 2650 300 50 H V L CNN
-F1 "4525DO-DS5AI001DP:4525DO-DS5AI001DP" 2650 200 50 H V L CNN
+F1 "4525DO-DS5AI001DP_4525DO-DS5AI001DP" 2650 200 50 H V L CNN
 F2 "4525DO-DS...P" 2650 100 50 H I L CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS4525DO&DocType=DS&DocLang=English" 2650 0 50 H I L CNN
 F4 "Differential Pressure Sensor 1PSI Dual Barbs" 2650 -100 50 H I L CNN "Description"
@@ -26,11 +26,11 @@ X NC(3) 8 2800 -300 200 L 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# AD7793BRUZ:AD7793BRUZ
+# AD7793BRUZ_AD7793BRUZ
 #
-DEF AD7793BRUZ:AD7793BRUZ IC 0 30 Y Y 1 F N
+DEF AD7793BRUZ_AD7793BRUZ IC 0 30 Y Y 1 F N
 F0 "IC" 1750 300 50 H V L CNN
-F1 "AD7793BRUZ:AD7793BRUZ" 1750 200 50 H V L CNN
+F1 "AD7793BRUZ_AD7793BRUZ" 1750 200 50 H V L CNN
 F2 "SOP65P640X120-16N" 1750 100 50 H I L CNN
 F3 "http://www.analog.com/static/imported-files/data_sheets/AD7792_7793.pdf" 1750 0 50 H I L CNN
 F4 "AD7793BRUZ, 24-Bit Analogue to Digital Converter, Differential, SPI, 16-Pin TSSOP" 1750 -100 50 H I L CNN "Description"
@@ -62,11 +62,11 @@ X REFIN[+]/AIN3[+] 9 1900 -700 200 L 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# ADS8688IDBT:ADS8688IDBT
+# ADS8688IDBT_ADS8688IDBT
 #
-DEF ADS8688IDBT:ADS8688IDBT IC 0 30 Y Y 1 F N
+DEF ADS8688IDBT_ADS8688IDBT IC 0 30 Y Y 1 F N
 F0 "IC" 1350 300 50 H V L CNN
-F1 "ADS8688IDBT:ADS8688IDBT" 1350 200 50 H V L CNN
+F1 "ADS8688IDBT_ADS8688IDBT" 1350 200 50 H V L CNN
 F2 "SOP50P640X120-38N" 1350 100 50 H I L CNN
 F3 "http://www.ti.com/lit/gpn/ads8688" 1350 0 50 H I L CNN
 F4 "16-Bit, 500-kSPS, 8-Channel, Single-Supply, SAR ADCs with Bipolar Input Ranges" 1350 -100 50 H I L CNN "Description"
@@ -118,11 +118,11 @@ X AVDD(1) 9 0 -800 200 R 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# BMP180:BMP180
+# BMP180_BMP180
 #
-DEF BMP180:BMP180 IC 0 30 Y Y 1 F N
+DEF BMP180_BMP180 IC 0 30 Y Y 1 F N
 F0 "IC" 950 300 50 H V L CNN
-F1 "BMP180:BMP180" 950 200 50 H V L CNN
+F1 "BMP180_BMP180" 950 200 50 H V L CNN
 F2 "BMP180" 950 100 50 H I L CNN
 F3 "http://ae-bst.resource.bosch.com/media/products/dokumente/bmp180/BST-BMP180-DS000-12~1.pdf" 950 0 50 H I L CNN
 F4 "Board Mount Pressure Sensors Digital Barometer 12uA, 300-1200hPa" 950 -100 50 H I L CNN "Description"
@@ -140,11 +140,11 @@ X GND 7 1100 -200 200 L 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# CAT24C256WI-GT3:CAT24C256WI-GT3
+# CAT24C256WI-GT3_CAT24C256WI-GT3
 #
-DEF CAT24C256WI-GT3:CAT24C256WI-GT3 IC 0 30 Y Y 1 F N
+DEF CAT24C256WI-GT3_CAT24C256WI-GT3 IC 0 30 Y Y 1 F N
 F0 "IC" 850 300 50 H V L CNN
-F1 "CAT24C256WI-GT3:CAT24C256WI-GT3" 850 200 50 H V L CNN
+F1 "CAT24C256WI-GT3_CAT24C256WI-GT3" 850 200 50 H V L CNN
 F2 "SOIC127P800X203-8N" 850 100 50 H I L CNN
 F3 "http://www.onsemi.com/pub/Collateral/CAT24C256-D.PDF" 850 0 50 H I L CNN
 F4 "EEPROM 2kb I2C Serial CMOS EEPROM" 850 -100 50 H I L CNN "Description"
@@ -168,11 +168,48 @@ X VCC 8 1000 0 200 L 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# Cape_Beaglebone-rescue:BeagleBone_Black_Header
+# Cape_Beaglebone-rescue_+5VA_aux-power
 #
-DEF Cape_Beaglebone-rescue:BeagleBone_Black_Header P 0 1 Y N 1 F N
+DEF Cape_Beaglebone-rescue_+5VA_aux-power P 0 40 Y Y 1 F N
+F0 "P" 0 100 60 H I C CNN
+F1 "Cape_Beaglebone-rescue_+5VA_aux-power" 200 50 60 H V C CNN
+F2 "" 200 50 60 H I C CNN
+F3 "" 200 50 60 H I C CNN
+DRAW
+P 2 1 1 0 -30 -100 0 -50 N
+P 2 1 1 0 0 -150 0 -50 N
+P 2 1 1 0 0 -50 30 -100 N
+X +5VA_aux 1 0 -150 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Cape_Beaglebone-rescue_BC807-transistors
+#
+DEF Cape_Beaglebone-rescue_BC807-transistors Q 0 0 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "Cape_Beaglebone-rescue_BC807-transistors" 200 0 50 H V L CNN
+F2 "TO_SOT_Packages_SMD:SOT-23" 200 -75 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 90 -70 70 -90 50 -50 90 -70 90 -70 F
+X B 1 -200 0 225 R 50 50 1 1 I
+X E 2 100 -200 100 U 50 50 1 1 P
+X C 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Cape_Beaglebone-rescue_BeagleBone_Black_Header
+#
+DEF Cape_Beaglebone-rescue_BeagleBone_Black_Header P 0 1 Y N 1 F N
 F0 "P" 0 1200 50 H V C CNN
-F1 "Cape_Beaglebone-rescue:BeagleBone_Black_Header" 0 0 50 V V C CNN
+F1 "Cape_Beaglebone-rescue_BeagleBone_Black_Header" 0 0 50 V V C CNN
 F2 "" 0 -850 60 H V C CNN
 F3 "" 0 -850 60 H V C CNN
 $FPLIST
@@ -275,11 +312,113 @@ X P9 9 -250 700 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Cape_Beaglebone-rescue:GNDA_ADC
+# Cape_Beaglebone-rescue_C-device
 #
-DEF Cape_Beaglebone-rescue:GNDA_ADC #PWR 0 0 Y Y 1 F P
+DEF Cape_Beaglebone-rescue_C-device C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Cape_Beaglebone-rescue_C-device" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Cape_Beaglebone-rescue_Conn_01x02-conn
+#
+DEF Cape_Beaglebone-rescue_Conn_01x02-conn J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Cape_Beaglebone-rescue_Conn_01x02-conn" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Cape_Beaglebone-rescue_Conn_01x04-conn
+#
+DEF Cape_Beaglebone-rescue_Conn_01x04-conn J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Cape_Beaglebone-rescue_Conn_01x04-conn" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Cape_Beaglebone-rescue_Conn_01x06-conn
+#
+DEF Cape_Beaglebone-rescue_Conn_01x06-conn J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "Cape_Beaglebone-rescue_Conn_01x06-conn" 0 -400 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 50 -350 1 1 10 f
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+X Pin_6 6 -200 -300 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Cape_Beaglebone-rescue_GNDA_ADC
+#
+DEF Cape_Beaglebone-rescue_GNDA_ADC #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Cape_Beaglebone-rescue:GNDA_ADC" 0 -150 50 H V C CNN
+F1 "Cape_Beaglebone-rescue_GNDA_ADC" 0 -150 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -288,11 +427,72 @@ X GNDA_ADC 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Cape_Beaglebone-rescue:VDD_ADC
+# Cape_Beaglebone-rescue_GNDA_aux-power
 #
-DEF Cape_Beaglebone-rescue:VDD_ADC #PWR 0 0 Y Y 1 F P
+DEF Cape_Beaglebone-rescue_GNDA_aux-power P 0 40 Y Y 1 F N
+F0 "P" 0 -250 60 H I C CNN
+F1 "Cape_Beaglebone-rescue_GNDA_aux-power" 0 -150 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+P 6 1 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GNDA_aux 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Cape_Beaglebone-rescue_Net-Tie_2-device
+#
+DEF Cape_Beaglebone-rescue_Net-Tie_2-device NT 0 0 N N 1 F N
+F0 "NT" 0 50 50 H V C CNN
+F1 "Cape_Beaglebone-rescue_Net-Tie_2-device" 0 -50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Net*Tie*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -50 0 50 0 N
+X 1 1 -100 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Cape_Beaglebone-rescue_R-device
+#
+DEF Cape_Beaglebone-rescue_R-device R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Cape_Beaglebone-rescue_R-device" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Cape_Beaglebone-rescue_TEST_1P-conn
+#
+DEF Cape_Beaglebone-rescue_TEST_1P-conn J 0 30 N N 1 F N
+F0 "J" 0 270 50 H V C CNN
+F1 "Cape_Beaglebone-rescue_TEST_1P-conn" 0 200 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Cape_Beaglebone-rescue_VDD_ADC
+#
+DEF Cape_Beaglebone-rescue_VDD_ADC #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Cape_Beaglebone-rescue:VDD_ADC" 0 140 50 H V C CNN
+F1 "Cape_Beaglebone-rescue_VDD_ADC" 0 140 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -303,11 +503,11 @@ X VDD_ADC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# DS3231S#:DS3231S#
+# DS3231S#_DS3231S#
 #
-DEF DS3231S#:DS3231S# U 0 30 Y Y 1 F N
+DEF DS3231S#_DS3231S# U 0 30 Y Y 1 F N
 F0 "U" 1250 300 50 H V L CNN
-F1 "DS3231S#:DS3231S#" 1250 200 50 H V L CNN
+F1 "DS3231S#_DS3231S#" 1250 200 50 H V L CNN
 F2 "SOIC127P1032X265-16N" 1250 100 50 H I L CNN
 F3 "https://datasheets.maximintegrated.com/en/ds/DS3231.pdf" 1250 0 50 H I L CNN
 F4 "Real Time Clock Serial Maxim DS3231S#, Real Time Clock Serial-I2C, 16-Pin SOIC" 1250 -100 50 H I L CNN "Description"
@@ -337,11 +537,11 @@ X N.C.(5) 9 1400 -700 200 L 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# Device:C_Small
+# Device_C_Small
 #
-DEF Device:C_Small C 0 10 N N 1 F N
+DEF Device_C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "Device:C_Small" 10 -80 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -355,11 +555,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# HMC5883L-TR:HMC5883L-TR
+# HMC5883L-TR_HMC5883L-TR
 #
-DEF HMC5883L-TR:HMC5883L-TR IC 0 30 Y Y 1 F N
+DEF HMC5883L-TR_HMC5883L-TR IC 0 30 Y Y 1 F N
 F0 "IC" 1150 300 50 H V L CNN
-F1 "HMC5883L-TR:HMC5883L-TR" 1150 200 50 H V L CNN
+F1 "HMC5883L-TR_HMC5883L-TR" 1150 200 50 H V L CNN
 F2 "16-PIN-LPCC" 1150 100 50 H I L CNN
 F3 "http://www.farnell.com/datasheets/2156842.pdf" 1150 0 50 H I L CNN
 F4 "HONEYWELL - HMC5883L-TR - IC, DIGITAL COMPASS, 3 AXIS, 16 PIN" 1150 -100 50 H I L CNN "Description"
@@ -386,11 +586,11 @@ X GND(1) 9 1300 0 200 L 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# HX711:HX711
+# HX711_HX711
 #
-DEF HX711:HX711 IC 0 30 Y Y 1 F N
+DEF HX711_HX711 IC 0 30 Y Y 1 F N
 F0 "IC" 1050 300 50 H V L CNN
-F1 "HX711:HX711" 1050 200 50 H V L CNN
+F1 "HX711_HX711" 1050 200 50 H V L CNN
 F2 "SOIC127P600X160-16N" 1050 100 50 H I L CNN
 F3 "https://cdn.sparkfun.com/datasheets/Sensors/ForceFlex/hx711_english.pdf" 1050 0 50 H I L CNN
 F4 "24-Bit Analog-to-Digital Converter (ADC) for Weigh Scales" 1050 -100 50 H I L CNN "Description"
@@ -420,11 +620,11 @@ X INB- 9 1200 -700 200 L 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# L3GD20H_CORRETO:L3GD20H
+# L3GD20H_CORRETO_L3GD20H
 #
-DEF L3GD20H_CORRETO:L3GD20H IC 0 30 Y Y 1 F N
+DEF L3GD20H_CORRETO_L3GD20H IC 0 30 Y Y 1 F N
 F0 "IC" 1350 300 50 H V L CNN
-F1 "L3GD20H_CORRETO:L3GD20H" 1350 200 50 H V L CNN
+F1 "L3GD20H_CORRETO_L3GD20H" 1350 200 50 H V L CNN
 F2 "LGA(3X3X1.0-16L)" 1350 100 50 H I L CNN
 F3 "http://www.mouser.com/ds/2/389/l3gd20h-954865.pdf" 1350 0 50 H I L CNN
 F4 "L3GD20H, 3-axis digital output gyroscope STMicroelectronics L3GD20H 3-Axis Gyroscope, 0  400 kHz, 2.2  3.6 V 16-Pin LGA" 1350 -100 50 H I L CNN "Description"
@@ -455,11 +655,11 @@ X RES_1 9 1500 0 200 L 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# LSM303D:LSM303D
+# LSM303D_LSM303D
 #
-DEF LSM303D:LSM303D AC 0 30 Y Y 1 F N
+DEF LSM303D_LSM303D AC 0 30 Y Y 1 F N
 F0 "AC" 1550 300 50 H V L CNN
-F1 "LSM303D:LSM303D" 1550 200 50 H V L CNN
+F1 "LSM303D_LSM303D" 1550 200 50 H V L CNN
 F2 "PQFN50P300X300X100-16N" 1550 100 50 H I L CNN
 F3 "http://www.st.com/web/en/resource/technical/document/datasheet/DM00057547.pdf" 1550 0 50 H I L CNN
 F4 "STMICROELECTRONICS - LSM303D - 3D ACCELEROMETER & MAGNETOMETER, LGA-16" 1550 -100 50 H I L CNN "Description"
@@ -493,11 +693,11 @@ X INT2 9 1700 0 200 L 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# MPU-6500:MPU-6500
+# MPU-6500_MPU-6500
 #
-DEF MPU-6500:MPU-6500 IC 0 30 Y Y 1 F N
+DEF MPU-6500_MPU-6500 IC 0 30 Y Y 1 F N
 F0 "IC" 1250 1000 50 H V L CNN
-F1 "MPU-6500:MPU-6500" 1250 900 50 H V L CNN
+F1 "MPU-6500_MPU-6500" 1250 900 50 H V L CNN
 F2 "QFN40P300X300X95-25N-D" 1250 800 50 H I L CNN
 F3 "https://www.invensense.com/wp-content/uploads/2015/02/MPU-6500-Datasheet2.pdf" 1250 700 50 H I L CNN
 F4 "6-axis MotionTracking device, 512-byte FIFO, QFN - 3x3x0.9mm package" 1250 600 50 H I L CNN "Description"
@@ -534,11 +734,11 @@ X SDO_/_AD0 9 600 -1400 200 U 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# MPU-9250:MPU-9250
+# MPU-9250_MPU-9250
 #
-DEF MPU-9250:MPU-9250 IC 0 30 Y Y 1 F N
+DEF MPU-9250_MPU-9250 IC 0 30 Y Y 1 F N
 F0 "IC" 1250 800 50 H V L CNN
-F1 "MPU-9250:MPU-9250" 1250 700 50 H V L CNN
+F1 "MPU-9250_MPU-9250" 1250 700 50 H V L CNN
 F2 "QFN40P300X300X105-25N-D" 1250 600 50 H I L CNN
 F3 "https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf" 1250 500 50 H I L CNN
 F4 "Multiple Function Sensor Modules Nine-Axis (Gyro + Accelerometer + Compass) MEMS MotionTracking Device" 1250 400 50 H I L CNN "Description"
@@ -575,11 +775,11 @@ X AD0/SDO 9 600 -1300 200 U 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# Switch1:SW_DIP_x02
+# Switch1_SW_DIP_x02
 #
-DEF Switch1:SW_DIP_x02 SW 0 0 Y N 1 F N
+DEF Switch1_SW_DIP_x02 SW 0 0 Y N 1 F N
 F0 "SW" 0 250 50 H V C CNN
-F1 "Switch1:SW_DIP_x02" 0 -150 50 H V C CNN
+F1 "Switch1_SW_DIP_x02" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -600,161 +800,11 @@ X ~ 4 300 100 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# conn:Conn_01x02
+# power1_+3V3
 #
-DEF conn:Conn_01x02 J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "conn:Conn_01x02" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
-$ENDFPLIST
-DRAW
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 50 50 -150 1 1 10 f
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-X Pin_2 2 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# conn:Conn_01x04
-#
-DEF conn:Conn_01x04 J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "conn:Conn_01x04" 0 -300 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
-$ENDFPLIST
-DRAW
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 150 50 -250 1 1 10 f
-X Pin_1 1 -200 100 150 R 50 50 1 1 P
-X Pin_2 2 -200 0 150 R 50 50 1 1 P
-X Pin_3 3 -200 -100 150 R 50 50 1 1 P
-X Pin_4 4 -200 -200 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# conn:Conn_01x06
-#
-DEF conn:Conn_01x06 J 0 40 Y N 1 F N
-F0 "J" 0 300 50 H V C CNN
-F1 "conn:Conn_01x06" 0 -400 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
-$ENDFPLIST
-DRAW
-S -50 -295 0 -305 1 1 6 N
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 205 0 195 1 1 6 N
-S -50 250 50 -350 1 1 10 f
-X Pin_1 1 -200 200 150 R 50 50 1 1 P
-X Pin_2 2 -200 100 150 R 50 50 1 1 P
-X Pin_3 3 -200 0 150 R 50 50 1 1 P
-X Pin_4 4 -200 -100 150 R 50 50 1 1 P
-X Pin_5 5 -200 -200 150 R 50 50 1 1 P
-X Pin_6 6 -200 -300 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# conn:TEST_1P
-#
-DEF conn:TEST_1P J 0 30 N N 1 F N
-F0 "J" 0 270 50 H V C CNN
-F1 "conn:TEST_1P" 0 200 50 H V C CNN
-F2 "" 200 0 50 H I C CNN
-F3 "" 200 0 50 H I C CNN
-DRAW
-C 0 130 30 0 1 0 N
-X 1 1 0 0 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:C
-#
-DEF device:C C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "device:C" 25 -100 50 H V L CNN
-F2 "" 38 -150 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:Net-Tie_2
-#
-DEF device:Net-Tie_2 NT 0 0 N N 1 F N
-F0 "NT" 0 50 50 H V C CNN
-F1 "device:Net-Tie_2" 0 -50 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Net*Tie*
-$ENDFPLIST
-DRAW
-P 2 0 1 10 -50 0 50 0 N
-X 1 1 -100 0 100 R 50 50 1 1 P
-X 2 2 100 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:R
-#
-DEF device:R R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "device:R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power1:+3V3
-#
-DEF power1:+3V3 #PWR 0 0 Y Y 1 F P
+DEF power1_+3V3 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power1:+3V3" 0 140 50 H V C CNN
+F1 "power1_+3V3" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS +3.3V
@@ -766,11 +816,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power1:+5VA
+# power1_+5VA
 #
-DEF power1:+5VA #PWR 0 0 Y Y 1 F P
+DEF power1_+5VA #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power1:+5VA" 0 140 50 H V C CNN
+F1 "power1_+5VA" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -781,11 +831,11 @@ X +5VA 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power1:GNDA
+# power1_GNDA
 #
-DEF power1:GNDA #PWR 0 0 Y Y 1 F P
+DEF power1_GNDA #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power1:GNDA" 0 -150 50 H V C CNN
+F1 "power1_GNDA" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -794,11 +844,11 @@ X GNDA 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power1:GNDD
+# power1_GNDD
 #
-DEF power1:GNDD #PWR 0 0 Y Y 1 F P
+DEF power1_GNDD #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power1:GNDD" 0 -125 50 H V C CNN
+F1 "power1_GNDD" 0 -125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -808,11 +858,11 @@ X GNDD 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:+5V
+# power_+5V
 #
-DEF power:+5V #PWR 0 0 Y Y 1 F P
+DEF power_+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+5V" 0 140 50 H V C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -823,26 +873,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:+5VA_aux
+# power_GNDA
 #
-DEF power:+5VA_aux P 0 40 Y Y 1 F N
-F0 "P" 0 100 60 H I C CNN
-F1 "power:+5VA_aux" 200 50 60 H V C CNN
-F2 "" 200 50 60 H I C CNN
-F3 "" 200 50 60 H I C CNN
-DRAW
-P 2 1 1 0 -30 -100 0 -50 N
-P 2 1 1 0 0 -150 0 -50 N
-P 2 1 1 0 0 -50 30 -100 N
-X +5VA_aux 1 0 -150 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power:GNDA
-#
-DEF power:GNDA #PWR 0 0 Y Y 1 F P
+DEF power_GNDA #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GNDA" 0 -150 50 H V C CNN
+F1 "power_GNDA" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -851,24 +886,11 @@ X GNDA 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:GNDA_aux
+# power_GNDD
 #
-DEF power:GNDA_aux P 0 40 Y Y 1 F N
-F0 "P" 0 -250 60 H I C CNN
-F1 "power:GNDA_aux" 0 -150 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-P 6 1 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GNDA_aux 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power:GNDD
-#
-DEF power:GNDD #PWR 0 0 Y Y 1 F P
+DEF power_GNDD #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GNDD" 0 -125 50 H V C CNN
+F1 "power_GNDD" 0 -125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -878,11 +900,11 @@ X GNDD 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# pspice1:INDUCTOR
+# pspice1_INDUCTOR
 #
-DEF pspice1:INDUCTOR L 0 0 N Y 1 F N
+DEF pspice1_INDUCTOR L 0 0 N Y 1 F N
 F0 "L" 0 100 50 H V C CNN
-F1 "pspice1:INDUCTOR" 0 -50 50 H V C CNN
+F1 "pspice1_INDUCTOR" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -892,29 +914,6 @@ A 50 0 50 1 1799 0 1 0 N 100 0 0 0
 A 150 0 50 1 1799 0 1 0 N 200 0 100 0
 X 1 1 -250 0 50 R 30 30 1 1 I
 X 2 2 250 0 50 L 30 30 1 1 I
-ENDDRAW
-ENDDEF
-#
-# transistors:BC807
-#
-DEF transistors:BC807 Q 0 0 Y N 1 F N
-F0 "Q" 200 75 50 H V L CNN
-F1 "transistors:BC807" 200 0 50 H V L CNN
-F2 "TO_SOT_Packages_SMD:SOT-23" 200 -75 50 H I L CIN
-F3 "" 0 0 50 H I L CNN
-ALIAS BC808 BC856 BC857 BC858 BC859 BC860 MMBT3906
-$FPLIST
- SOT?23*
-$ENDFPLIST
-DRAW
-C 50 0 111 0 1 10 N
-P 2 0 1 0 25 25 100 100 N
-P 3 0 1 0 25 -25 100 -100 100 -100 N
-P 3 0 1 20 25 75 25 -75 25 -75 N
-P 5 0 1 0 90 -70 70 -90 50 -50 90 -70 90 -70 F
-X B 1 -200 0 225 R 50 50 1 1 I
-X E 2 100 -200 100 U 50 50 1 1 P
-X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

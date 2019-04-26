@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.0.0)")
+(kicad_pcb (version 20171130) (host pcbnew 5.1.0)
 
   (general
     (thickness 1.6)
@@ -11,8 +11,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu power hide)
-    (31 B.Cu signal hide)
+    (0 F.Cu power)
+    (31 B.Cu signal)
     (33 F.Adhes user hide)
     (35 F.Paste user hide)
     (36 B.SilkS user)
@@ -33,8 +33,6 @@
     (zone_clearance 0.3)
     (zone_45_only no)
     (trace_min 0.2)
-    (segment_width 0.2)
-    (edge_width 0.00254)
     (via_size 0.6)
     (via_drill 0.4)
     (via_min_size 0.4)
@@ -44,6 +42,8 @@
     (uvias_allowed no)
     (uvia_min_size 0.2)
     (uvia_min_drill 0.1)
+    (edge_width 0.00254)
+    (segment_width 0.2)
     (pcb_text_width 0.3)
     (pcb_text_size 1.5 1.5)
     (mod_edge_width 0.15)
@@ -483,8 +483,8 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.2)
-    (diff_pair_gap 0.2)
     (diff_pair_width 0.2)
+    (diff_pair_gap 0.2)
     (add_net INTERUP_SEN_3)
     (add_net "Net-(C4-Pad2)")
     (add_net "Net-(IC1-Pad11)")

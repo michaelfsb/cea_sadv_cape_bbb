@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Cape_Beaglebone-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -145,7 +145,7 @@ Text Notes 3650 1750 0    60   ~ 0
 Text Notes 2150 1000 0    79   Italic 16
 Índice de componentes do cape
 $Comp
-L device:R R12
+L Cape_Beaglebone-rescue:R-device R12
 U 1 1 5AC44C74
 P 7950 8450
 F 0 "R12" V 8030 8450 50  0000 C CNN
@@ -156,7 +156,7 @@ F 3 "" H 7950 8450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R10
+L Cape_Beaglebone-rescue:R-device R10
 U 1 1 5AC44C7B
 P 7750 8450
 F 0 "R10" V 7830 8450 50  0000 C CNN
@@ -193,7 +193,7 @@ F 3 "" H 15300 7650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R15
+L Cape_Beaglebone-rescue:R-device R15
 U 1 1 5AC44DA3
 P 15200 7900
 F 0 "R15" V 15280 7900 50  0000 C CNN
@@ -204,7 +204,7 @@ F 3 "" H 15200 7900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R16
+L Cape_Beaglebone-rescue:R-device R16
 U 1 1 5AC44DAA
 P 15400 7900
 F 0 "R16" V 15480 7900 50  0000 C CNN
@@ -230,7 +230,7 @@ F 3 "" H 15000 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C33
+L Cape_Beaglebone-rescue:C-device C33
 U 1 1 5AC47CEE
 P 15350 4150
 F 0 "C33" H 15375 4250 50  0000 L CNN
@@ -252,7 +252,7 @@ F 3 "" H 15350 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Net-Tie_2 NT1
+L Cape_Beaglebone-rescue:Net-Tie_2-device NT1
 U 1 1 5AC4833F
 P 15000 4350
 F 0 "NT1" H 15000 4400 50  0000 C CNN
@@ -291,7 +291,7 @@ F 9 "" H 10800 8750 50  0001 L CNN "RS Price/Stock"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C14
+L Cape_Beaglebone-rescue:C-device C14
 U 1 1 5AEB9B83
 P 9850 10600
 F 0 "C14" H 9700 10700 50  0000 L CNN
@@ -324,7 +324,7 @@ F 3 "" H 9900 10350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C C15
+L Cape_Beaglebone-rescue:C-device C15
 U 1 1 5AEB9B96
 P 10500 10600
 F 0 "C15" H 10525 10700 50  0000 L CNN
@@ -346,7 +346,7 @@ F 3 "" H 10700 10600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C C16
+L Cape_Beaglebone-rescue:C-device C16
 U 1 1 5AEB9BA3
 P 11200 9400
 F 0 "C16" H 11050 9500 50  0000 L CNN
@@ -418,7 +418,7 @@ F 9 "" H 13550 7050 50  0001 L CNN "RS Price/Stock"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C21
+L Cape_Beaglebone-rescue:C-device C21
 U 1 1 5AEB9BCF
 P 12200 8550
 F 0 "C21" H 12225 8650 50  0000 L CNN
@@ -429,7 +429,7 @@ F 3 "" H 12200 8550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C27
+L Cape_Beaglebone-rescue:C-device C27
 U 1 1 5AEB9BD6
 P 14200 7750
 F 0 "C27" H 14225 7850 50  0000 L CNN
@@ -490,7 +490,7 @@ F 3 "" H 10250 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C23
+L Cape_Beaglebone-rescue:C-device C23
 U 1 1 5AEB9BFC
 P 12400 9650
 F 0 "C23" H 12425 9750 50  0000 L CNN
@@ -512,7 +512,7 @@ F 3 "" H 11950 7750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C C19
+L Cape_Beaglebone-rescue:C-device C19
 U 1 1 5AEB9C0F
 P 12050 7950
 F 0 "C19" H 11900 8050 50  0000 L CNN
@@ -634,7 +634,7 @@ F 3 "" H 1050 10450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C C2
+L Cape_Beaglebone-rescue:C-device C2
 U 1 1 5AEBAE3C
 P 1150 10650
 F 0 "C2" H 1000 10750 50  0000 L CNN
@@ -645,7 +645,7 @@ F 3 "" H 1150 10650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C4
+L Cape_Beaglebone-rescue:C-device C4
 U 1 1 5AEBAE43
 P 1850 10600
 F 0 "C4" H 1875 10700 50  0000 L CNN
@@ -689,7 +689,7 @@ F 3 "" H 2550 9550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C5
+L Cape_Beaglebone-rescue:C-device C5
 U 1 1 5AEBAE5C
 P 2400 9750
 F 0 "C5" H 2250 9850 50  0000 L CNN
@@ -840,7 +840,7 @@ F 11 "http://www.alliedelec.com/on-semiconductor-cat24c256wi-gt3/70465488/" H 75
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C8
+L Cape_Beaglebone-rescue:C-device C8
 U 1 1 5AEBAED1
 P 7150 10700
 F 0 "C8" H 7175 10800 50  0000 L CNN
@@ -877,7 +877,7 @@ SCL_I2C_2
 Text GLabel 7700 10400 2    60   Input ~ 0
 SDA_I2C_2
 $Comp
-L device:R R11
+L Cape_Beaglebone-rescue:R-device R11
 U 1 1 5AEBAEE6
 P 7850 9900
 F 0 "R11" V 7930 9900 50  0000 C CNN
@@ -888,7 +888,7 @@ F 3 "" H 7850 9900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:TEST_1P J5
+L Cape_Beaglebone-rescue:TEST_1P-conn J5
 U 1 1 5AEBAEED
 P 7900 10200
 F 0 "J5" V 7850 10250 50  0000 C CNN
@@ -921,7 +921,7 @@ F 3 "" H 6450 9400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R7
+L Cape_Beaglebone-rescue:R-device R7
 U 1 1 5AEBAF07
 P 6300 9650
 F 0 "R7" V 6380 9650 50  0000 C CNN
@@ -932,7 +932,7 @@ F 3 "" H 6300 9650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R8
+L Cape_Beaglebone-rescue:R-device R8
 U 1 1 5AEBAF0E
 P 6450 9650
 F 0 "R8" V 6530 9650 50  0000 C CNN
@@ -943,7 +943,7 @@ F 3 "" H 6450 9650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R9
+L Cape_Beaglebone-rescue:R-device R9
 U 1 1 5AEBAF15
 P 6600 9650
 F 0 "R9" V 6680 9650 50  0000 C CNN
@@ -954,7 +954,7 @@ F 3 "" H 6600 9650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x02 J3
+L Cape_Beaglebone-rescue:Conn_01x02-conn J3
 U 1 1 5AEBAF1C
 P 5600 9750
 F 0 "J3" V 5700 9700 50  0000 C CNN
@@ -988,7 +988,7 @@ F 3 "" H 9550 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C18
+L Cape_Beaglebone-rescue:C-device C18
 U 1 1 5AEBFB82
 P 11950 6300
 F 0 "C18" H 11975 6400 50  0000 L CNN
@@ -999,7 +999,7 @@ F 3 "" H 11950 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C22
+L Cape_Beaglebone-rescue:C-device C22
 U 1 1 5AEBFB89
 P 12250 6300
 F 0 "C22" H 12275 6400 50  0000 L CNN
@@ -1016,7 +1016,7 @@ SPI_SDI
 Text GLabel 9400 6100 0    60   Input ~ 0
 SPI_SD0
 $Comp
-L device:C C31
+L Cape_Beaglebone-rescue:C-device C31
 U 1 1 5AEBFBA5
 P 15300 5850
 F 0 "C31" V 15350 5950 50  0000 L CNN
@@ -1027,7 +1027,7 @@ F 3 "" H 15300 5850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C32
+L Cape_Beaglebone-rescue:C-device C32
 U 1 1 5AEBFBB2
 P 15300 6200
 F 0 "C32" H 15325 6300 50  0000 L CNN
@@ -1038,7 +1038,7 @@ F 3 "" H 15300 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C28
+L Cape_Beaglebone-rescue:C-device C28
 U 1 1 5AEBFBB9
 P 15050 6200
 F 0 "C28" H 15075 6300 50  0000 L CNN
@@ -1091,7 +1091,7 @@ F 9 "http://uk.rs-online.com/web/p/products/7248726P" H 3000 5600 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L transistors:BC807 Q1
+L Cape_Beaglebone-rescue:BC807-transistors Q1
 U 1 1 5AEBFBDA
 P 1550 6000
 F 0 "Q1" H 1750 6075 50  0000 L CNN
@@ -1113,7 +1113,7 @@ F 3 "" H 3300 6200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C3
+L Cape_Beaglebone-rescue:C-device C3
 U 1 1 5AEBFBF3
 P 1700 7100
 F 0 "C3" H 1725 7200 50  0000 L CNN
@@ -1135,7 +1135,7 @@ F 3 "" H 3300 6300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R1
+L Cape_Beaglebone-rescue:R-device R1
 U 1 1 5AEBFC06
 P 1250 6100
 F 0 "R1" V 1330 6100 50  0000 C CNN
@@ -1146,7 +1146,7 @@ F 3 "" H 1250 6100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R2
+L Cape_Beaglebone-rescue:R-device R2
 U 1 1 5AEBFC0D
 P 1250 6400
 F 0 "R2" V 1330 6400 50  0000 C CNN
@@ -1157,7 +1157,7 @@ F 3 "" H 1250 6400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C1
+L Cape_Beaglebone-rescue:C-device C1
 U 1 1 5AEBFCAD
 P 900 5900
 F 0 "C1" H 925 6000 50  0000 L CNN
@@ -1290,7 +1290,7 @@ F 3 "" H 12150 1500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C29
+L Cape_Beaglebone-rescue:C-device C29
 U 1 1 5AF9BF3C
 P 15300 1600
 F 0 "C29" H 15325 1700 50  0000 L CNN
@@ -1312,7 +1312,7 @@ F 3 "" H 15300 1400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C30
+L Cape_Beaglebone-rescue:C-device C30
 U 1 1 5AFD6C70
 P 15300 2400
 F 0 "C30" H 15325 2500 50  0000 L CNN
@@ -1597,7 +1597,7 @@ F 3 "" H 900 10650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R4
+L Cape_Beaglebone-rescue:R-device R4
 U 1 1 5B0223F1
 P 1750 10950
 F 0 "R4" V 1830 10950 50  0000 C CNN
@@ -1608,7 +1608,7 @@ F 3 "" H 1750 10950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R3
+L Cape_Beaglebone-rescue:R-device R3
 U 1 1 5B02365A
 P 1250 10950
 F 0 "R3" V 1330 10950 50  0000 C CNN
@@ -1687,7 +1687,7 @@ Text Label 8900 4400 0    60   ~ 0
 AIN_13N
 NoConn ~ 6950 3800
 $Comp
-L device:C C10
+L Cape_Beaglebone-rescue:C-device C10
 U 1 1 5B4E6344
 P 9500 3700
 F 0 "C10" H 9525 3800 50  0000 L CNN
@@ -1698,7 +1698,7 @@ F 3 "" H 9500 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C11
+L Cape_Beaglebone-rescue:C-device C11
 U 1 1 5B4E6841
 P 9500 4200
 F 0 "C11" H 9525 4300 50  0000 L CNN
@@ -1743,7 +1743,7 @@ F 3 "" H 10600 10900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R14
+L Cape_Beaglebone-rescue:R-device R14
 U 1 1 5B5E84B6
 P 10400 10900
 F 0 "R14" V 10480 10900 50  0000 C CNN
@@ -1754,7 +1754,7 @@ F 3 "" H 10400 10900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R13
+L Cape_Beaglebone-rescue:R-device R13
 U 1 1 5B5E84BF
 P 9900 10900
 F 0 "R13" V 9980 10900 50  0000 C CNN
@@ -1821,7 +1821,7 @@ HX1_SCK
 NoConn ~ 13000 2300
 NoConn ~ 13000 2400
 $Comp
-L device:C C20
+L Cape_Beaglebone-rescue:C-device C20
 U 1 1 5B60F72F
 P 12150 2150
 F 0 "C20" H 12175 2250 50  0000 L CNN
@@ -1832,7 +1832,7 @@ F 3 "" H 12150 2150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C26
+L Cape_Beaglebone-rescue:C-device C26
 U 1 1 5B6108FE
 P 12650 1850
 F 0 "C26" H 12675 1950 50  0000 L CNN
@@ -1843,7 +1843,7 @@ F 3 "" H 12650 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C24
+L Cape_Beaglebone-rescue:C-device C24
 U 1 1 5B6113FA
 P 12450 1850
 F 0 "C24" H 12475 1950 50  0000 L CNN
@@ -1854,7 +1854,7 @@ F 3 "" H 12450 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C25
+L Cape_Beaglebone-rescue:C-device C25
 U 1 1 5B61489B
 P 12550 1600
 F 0 "C25" H 12575 1700 50  0000 L CNN
@@ -1876,7 +1876,7 @@ INTERUP_RTC
 NoConn ~ 4100 3500
 NoConn ~ 4600 3800
 $Comp
-L conn:Conn_01x04 J1
+L Cape_Beaglebone-rescue:Conn_01x04-conn J1
 U 1 1 5AEBFC81
 P 900 6700
 F 0 "J1" H 900 6900 50  0000 C CNN
@@ -2701,7 +2701,7 @@ Wire Wire Line
 Wire Wire Line
 	10550 4000 10550 4050
 $Comp
-L conn:Conn_01x06 J11
+L Cape_Beaglebone-rescue:Conn_01x06-conn J11
 U 1 1 5B613F83
 P 10850 4250
 F 0 "J11" H 10850 4550 50  0000 C CNN
@@ -2732,7 +2732,7 @@ Wire Wire Line
 Wire Wire Line
 	11350 4000 11350 4050
 $Comp
-L conn:Conn_01x06 J16
+L Cape_Beaglebone-rescue:Conn_01x06-conn J16
 U 1 1 5B614C2B
 P 11650 4250
 F 0 "J16" H 11650 4550 50  0000 C CNN
@@ -2743,7 +2743,7 @@ F 3 "" H 11650 4250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L conn:Conn_01x04 J7
+L Cape_Beaglebone-rescue:Conn_01x04-conn J7
 U 1 1 5B616DAD
 P 10250 1300
 F 0 "J7" H 10250 1500 50  0000 C CNN
@@ -2754,7 +2754,7 @@ F 3 "" H 10250 1300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x04 J8
+L Cape_Beaglebone-rescue:Conn_01x04-conn J8
 U 1 1 5B61759F
 P 10250 1850
 F 0 "J8" H 10250 2050 50  0000 C CNN
@@ -2765,7 +2765,7 @@ F 3 "" H 10250 1850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x04 J9
+L Cape_Beaglebone-rescue:Conn_01x04-conn J9
 U 1 1 5B617A07
 P 10250 2400
 F 0 "J9" H 10250 2600 50  0000 C CNN
@@ -2776,7 +2776,7 @@ F 3 "" H 10250 2400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x04 J10
+L Cape_Beaglebone-rescue:Conn_01x04-conn J10
 U 1 1 5B617B24
 P 10250 2950
 F 0 "J10" H 10250 3150 50  0000 C CNN
@@ -2787,7 +2787,7 @@ F 3 "" H 10250 2950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x04 J12
+L Cape_Beaglebone-rescue:Conn_01x04-conn J12
 U 1 1 5B618580
 P 11150 1300
 F 0 "J12" H 11150 1500 50  0000 C CNN
@@ -2798,7 +2798,7 @@ F 3 "" H 11150 1300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x04 J13
+L Cape_Beaglebone-rescue:Conn_01x04-conn J13
 U 1 1 5B618586
 P 11150 1850
 F 0 "J13" H 11150 2050 50  0000 C CNN
@@ -2809,7 +2809,7 @@ F 3 "" H 11150 1850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x04 J14
+L Cape_Beaglebone-rescue:Conn_01x04-conn J14
 U 1 1 5B61858C
 P 11150 2400
 F 0 "J14" H 11150 2600 50  0000 C CNN
@@ -2820,7 +2820,7 @@ F 3 "" H 11150 2400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x04 J15
+L Cape_Beaglebone-rescue:Conn_01x04-conn J15
 U 1 1 5B618592
 P 11150 2950
 F 0 "J15" H 11150 3150 50  0000 C CNN
@@ -2848,7 +2848,7 @@ F 9 "http://uk.rs-online.com/web/p/products/7248726P" H 6600 5550 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L transistors:BC807 Q2
+L Cape_Beaglebone-rescue:BC807-transistors Q2
 U 1 1 5B74B806
 P 5150 5950
 F 0 "Q2" H 5350 6025 50  0000 L CNN
@@ -2870,7 +2870,7 @@ F 3 "" H 6900 6150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C7
+L Cape_Beaglebone-rescue:C-device C7
 U 1 1 5B74B81F
 P 5300 7050
 F 0 "C7" H 5325 7150 50  0000 L CNN
@@ -2892,7 +2892,7 @@ F 3 "" H 6900 6250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R5
+L Cape_Beaglebone-rescue:R-device R5
 U 1 1 5B74B832
 P 4850 6050
 F 0 "R5" V 4930 6050 50  0000 C CNN
@@ -2903,7 +2903,7 @@ F 3 "" H 4850 6050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R6
+L Cape_Beaglebone-rescue:R-device R6
 U 1 1 5B74B839
 P 4850 6350
 F 0 "R6" V 4930 6350 50  0000 C CNN
@@ -2914,7 +2914,7 @@ F 3 "" H 4850 6350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C6
+L Cape_Beaglebone-rescue:C-device C6
 U 1 1 5B74B846
 P 4500 5850
 F 0 "C6" H 4525 5950 50  0000 L CNN
@@ -2930,7 +2930,7 @@ HX2_DOUT
 Text GLabel 6900 6650 2    60   Input ~ 0
 HX2_SCK
 $Comp
-L conn:Conn_01x04 J2
+L Cape_Beaglebone-rescue:Conn_01x04-conn J2
 U 1 1 5B74B856
 P 4500 6650
 F 0 "J2" H 4500 6850 50  0000 C CNN
@@ -3085,7 +3085,7 @@ Text Label 8950 2000 0    60   ~ 0
 AIN_9N
 NoConn ~ 7000 1400
 $Comp
-L device:C C12
+L Cape_Beaglebone-rescue:C-device C12
 U 1 1 5C037CA6
 P 9550 1300
 F 0 "C12" H 9575 1400 50  0000 L CNN
@@ -3096,7 +3096,7 @@ F 3 "" H 9550 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C13
+L Cape_Beaglebone-rescue:C-device C13
 U 1 1 5C037CB3
 P 9550 1800
 F 0 "C13" H 9575 1900 50  0000 L CNN
@@ -3181,7 +3181,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 2750 7050 2800
 $Comp
-L conn:Conn_01x06 J4
+L Cape_Beaglebone-rescue:Conn_01x06-conn J4
 U 1 1 5C1DF9E5
 P 7350 3000
 F 0 "J4" H 7350 3300 50  0000 C CNN
@@ -3210,7 +3210,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 2750 7850 2800
 $Comp
-L conn:Conn_01x06 J6
+L Cape_Beaglebone-rescue:Conn_01x06-conn J6
 U 1 1 5C1DFA02
 P 8150 3000
 F 0 "J6" H 8150 3300 50  0000 C CNN
@@ -3382,7 +3382,7 @@ Wire Wire Line
 	11350 6550 11350 6500
 Connection ~ 11350 6200
 $Comp
-L device:C C17
+L Cape_Beaglebone-rescue:C-device C17
 U 1 1 5BD56488
 P 11600 6300
 F 0 "C17" H 11625 6400 50  0000 L CNN
@@ -3574,7 +3574,7 @@ Wire Wire Line
 Wire Wire Line
 	10750 3950 10750 4050
 $Comp
-L device:R R17
+L Cape_Beaglebone-rescue:R-device R17
 U 1 1 5BCAF6C2
 P 5950 9850
 F 0 "R17" V 6030 9850 50  0000 C CNN
@@ -3590,7 +3590,7 @@ Wire Wire Line
 	5600 9850 5600 10100
 Connection ~ 5600 10100
 $Comp
-L device:R R18
+L Cape_Beaglebone-rescue:R-device R18
 U 1 1 5BE447A2
 P 5950 10500
 F 0 "R18" V 6030 10500 50  0000 C CNN
@@ -3750,7 +3750,7 @@ F 3 "" H 8000 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C34
+L Cape_Beaglebone-rescue:C-device C34
 U 1 1 5BB86193
 P 8350 6950
 F 0 "C34" H 8375 7050 50  0000 L CNN
@@ -3761,7 +3761,7 @@ F 3 "" H 8350 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Net-Tie_2 NT2
+L Cape_Beaglebone-rescue:Net-Tie_2-device NT2
 U 1 1 5BB861A0
 P 8000 7150
 F 0 "NT2" H 8000 7200 50  0000 C CNN
@@ -3816,7 +3816,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 6750 7750 6750
 $Comp
-L power:+5VA_aux #PWR215
+L Cape_Beaglebone-rescue:+5VA_aux-power #PWR215
 U 1 1 5BC35D29
 P 8350 6500
 F 0 "#PWR215" H 8350 6600 60  0001 C CNN
@@ -3827,7 +3827,7 @@ F 3 "" H 8350 6500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA_aux #PWR216
+L Cape_Beaglebone-rescue:GNDA_aux-power #PWR216
 U 1 1 5BC368F8
 P 8350 7200
 F 0 "#PWR216" H 8350 6950 60  0001 C CNN
@@ -3970,7 +3970,7 @@ F 3 "" H 11450 4000 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L power:+5VA_aux #PWR34
+L Cape_Beaglebone-rescue:+5VA_aux-power #PWR34
 U 1 1 5C3164F2
 P 5500 5650
 F 0 "#PWR34" H 5500 5750 60  0001 C CNN
@@ -3981,7 +3981,7 @@ F 3 "" H 5500 5650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA_aux #PWR32
+L Cape_Beaglebone-rescue:GNDA_aux-power #PWR32
 U 1 1 5C317002
 P 5300 7300
 F 0 "#PWR32" H 5300 7050 60  0001 C CNN
@@ -4005,7 +4005,7 @@ Wire Wire Line
 	5300 7200 5300 7250
 Connection ~ 5300 7250
 $Comp
-L power:+5VA_aux #PWR12
+L Cape_Beaglebone-rescue:+5VA_aux-power #PWR12
 U 1 1 5C57BF03
 P 1900 5700
 F 0 "#PWR12" H 1900 5800 60  0001 C CNN
@@ -4019,7 +4019,7 @@ Wire Wire Line
 	4650 5850 4700 5850
 Connection ~ 4700 5850
 $Comp
-L power:GNDA_aux #PWR16
+L Cape_Beaglebone-rescue:GNDA_aux-power #PWR16
 U 1 1 5C68389C
 P 4350 6000
 F 0 "#PWR16" H 4350 5750 60  0001 C CNN
@@ -4032,7 +4032,7 @@ $EndComp
 Wire Wire Line
 	4350 5850 4350 6000
 $Comp
-L power:GNDA_aux #PWR9
+L Cape_Beaglebone-rescue:GNDA_aux-power #PWR9
 U 1 1 5C6DBFB4
 P 1700 7350
 F 0 "#PWR9" H 1700 7100 60  0001 C CNN
@@ -4055,7 +4055,7 @@ Wire Wire Line
 	1050 5900 1100 5900
 Connection ~ 1100 5900
 $Comp
-L power:GNDA_aux #PWR2
+L Cape_Beaglebone-rescue:GNDA_aux-power #PWR2
 U 1 1 5C8990B7
 P 750 6000
 F 0 "#PWR2" H 750 5750 60  0001 C CNN
