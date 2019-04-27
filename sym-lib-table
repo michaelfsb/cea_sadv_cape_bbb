@@ -181,4 +181,5 @@
   (lib (name CAT24C256WI-GT3)(type Legacy)(uri ${KIPRJMOD}/componetes/CAT24C256WI-GT3/KiCad/CAT24C256WI-GT3.lib)(options "")(descr ""))
   (lib (name LSM303D)(type Legacy)(uri ${KIPRJMOD}/componetes/LSM303D/LSM303D/KiCad/LSM303D.lib)(options "")(descr ""))
   (lib (name L3GD20H_CORRETO)(type Legacy)(uri ${KIPRJMOD}/componetes/L3GD20H/KiCad/L3GD20H_CORRETO.lib)(options "")(descr ""))
+  (lib (name project-power)(type Legacy)(uri ${KIPRJMOD}/componetes/project-power/project-power.lib)(options "")(descr ""))
 )
